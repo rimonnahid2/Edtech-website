@@ -126,3 +126,42 @@ body{
 /*TRUSTED SECTION END*/
 
 
+.footer-section{
+	margin-top: 100px;
+	padding: 100px;
+}
+.policy a{
+	text-decoration: none;
+}
+.firstpolicy{
+	border-right: 1px solid lightgray;
+	padding-right: 20px;
+}
+
+.footer-socials a{
+	color:#fff;
+	padding: 10px;
+	border: 1px solid #cae0ee;
+	border-radius: 45%;
+}
+
+
+/*RESPONSIVE */
+@media screen and (max-width: 750px) {
+.student-detail{
+	text-align: center;
+}
+.carousel-caption h1{
+	font-size: 36px;
+}
+ .carousel-caption {
+    left: 50%;
+    top: 40%;
+    width :60%;
+    transform: translate(-50%, -50%);
+} 
+.trusted-section{
+	display: none;
+}
+
+}
