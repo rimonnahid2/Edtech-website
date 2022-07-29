@@ -163,5 +163,9 @@ body{
 .trusted-section{
 	display: none;
 }
+.on{
+	display: none;
+}
+
 
 }
