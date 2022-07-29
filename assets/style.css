@@ -6,7 +6,7 @@
 	padding: 0; 
 }
 p{
-	font-size: 18px;
+	font-size: 14px;
 }
 body{
  	font-family: 'Poppins', sans-serif;
@@ -86,5 +86,43 @@ body{
 }
 
 /*READY SECTION END*/
+
+/*STUDENT SECTION START*/
+.student-section{
+	margin-top:100px ;
+}
+.student-header h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.student-header p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.student-detail h5{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.student-detail p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+/*STUDENT SECTION END*/
+
+/*FAQ SECTION START*/
+.faq-section{
+	margin-top:50px;
+}
+/*FAQ SECTION END*/
+
+
+
+/*TRUSTED SECTION START*/
+.trusted-section{
+	margin-top:100px;
+}
+/*TRUSTED SECTION END*/
 
 
