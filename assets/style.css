@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Encode+Sans&family=Epilogue&family=Lobster+Two:ital,wght@1,700&family=Manrope:wght@400;700;800&family=Merriweather&family=Patrick+Hand&family=Poppins:wght@400;500;600;800&family=Roboto+Slab&display=swap');
 
 
-*{ 
+* {
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 }
-p{
+
+p {
 	font-size: 14px;
 }
-body{
- 	font-family: 'Poppins', sans-serif;
- 	font-size: 14px;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
 }
- .carousel-caption {
-    left: 50%;
-    top: 55%;
-    width :60%;
-    transform: translate(-50%, -50%);
-} 
-.carousel-caption h1{
+
+.carousel-caption {
+	left: 50%;
+	top: 55%;
+	width: 60%;
+	transform: translate(-50%, -50%);
+}
+
+.carousel-caption h1 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 60px;
 }
@@ -27,60 +31,66 @@ body{
 /*courses*/
 
 
-.course-top-section{
+.course-top-section {
 	margin: 100px 40px 40px 40px;
 }
-.course-top-section h2{
+
+.course-top-section h2 {
 	font-size: 45px;
 }
 
-.course-title{
+.course-title {
 	font-family: 'Poppins', sans-serif;
 	font-size: 25px;
 	font-weight: 600;
 }
 
-.course-price{
+.course-price {
 	font-weight: 600;
 	color: #289BDE;
 }
 
-.see-more-button{
-	background:  #289BDE;
+.see-more-button {
+	background: #289BDE;
 	font-weight: 500;
 	font-size: 20px;
 }
 
-.explore-section{
+.explore-section {
 	margin-top: 100px;
 	background-color: #F4FAFD;
 }
 
-.info-number{
+.info-number {
 	font-weight: 600;
 }
 
-.explore-title{
+.explore-title {
 	font-weight: 600;
 }
+
 /*EXPLORE SECTION END*/
 
 /*READY SECTION START*/
- .ready-section-content{
- 	padding: 80px;
+.ready-section-content {
+	padding: 80px;
 	border-radius: 10px;
- }
-.ready-section{
+}
+
+.ready-section {
 	margin-top: 100px;
 }
-.ready-section h1{
+
+.ready-section h1 {
 	font-size: 45px;
 
 }
-.ready-section p{
+
+.ready-section p {
 	font-size: 16px;
 }
-.register-now{
+
+.register-now {
 	font-size: 25px;
 	font-weight: 500;
 }
@@ -88,58 +98,67 @@ body{
 /*READY SECTION END*/
 
 /*STUDENT SECTION START*/
-.student-section{
-	margin-top:100px ;
+.student-section {
+	margin-top: 100px;
 }
-.student-header h2{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-}
-.student-header p{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-}
-.student-detail h5{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-}
-.student-detail p{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-}
-/*STUDENT SECTION END*/
 
-/*FAQ SECTION START*/
-.faq-section{
-	margin-top:50px;
+.student-header h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
 }
+
+.student-header p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.student-detail h5 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.student-detail p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+/*STUDENT SECTION END*/
+/*FAQ SECTION START*/
+.faq-section {
+	max-width: 768px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
 /*FAQ SECTION END*/
 
 
-
 /*TRUSTED SECTION START*/
-.trusted-section{
-	margin-top:100px;
+.trusted-section {
+	margin-top: 100px;
 }
+
 /*TRUSTED SECTION END*/
 
 
-.footer-section{
+.footer-section {
 	margin-top: 100px;
 	padding: 100px;
 }
-.policy a{
+
+.policy a {
 	text-decoration: none;
 }
-.firstpolicy{
+
+.firstpolicy {
 	border-right: 1px solid lightgray;
 	padding-right: 20px;
 }
 
-.footer-socials a{
-	color:#fff;
+.footer-socials a {
+	color: #fff;
 	padding: 10px;
 	border: 1px solid #cae0ee;
 	border-radius: 45%;
@@ -147,25 +166,47 @@ body{
 
 
 /*RESPONSIVE */
+
+@media screen and (max-width: 990px) {
+	.carousel-caption h1 {
+		font-size: 24px;
+	}	
+	.carousel-caption p {
+		font-size: 12px;
+	}	
+	.carousel-caption button {
+		font-size: 12px;
+		padding: 0;
+	}
+	.carousel-caption {
+		left: 50%;
+		top: 50%;
+		width: 60%;
+		transform: translate(-50%, -50%);
+	}
+}
 @media screen and (max-width: 750px) {
-.student-detail{
-	text-align: center;
-}
-.carousel-caption h1{
-	font-size: 36px;
-}
- .carousel-caption {
-    left: 50%;
-    top: 40%;
-    width :60%;
-    transform: translate(-50%, -50%);
-} 
-.trusted-section{
-	display: none;
-}
-.on{
-	display: none;
-}
+	.student-detail {
+		text-align: center;
+	}
 
+	.carousel-caption h1 {
+		font-size: 16px;
+	}	
+	.carousel-caption p {
+		font-size: 8px;
+	}	
+	.carousel-caption button {
+		font-size: 10px;
+		padding: 0;
+	}
 
+	.carousel-caption {
+		left: 50%;
+		top: 40%;
+		width: 60%;
+		transform: translate(-50%, -50%);
+	}
+
+	
 }
