@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Encode+Sans&family=Epilogue&family=Lobster+Two:ital,wght@1,700&family=Manrope:wght@400;700;800&family=Merriweather&family=Patrick+Hand&family=Poppins:wght@400;500;600;800&family=Roboto+Slab&display=swap');
+
+
+*{ 
+	margin: 0;
+	padding: 0; 
+}
+p{
+	font-size: 18px;
+}
+body{
+ 	font-family: 'Poppins', sans-serif;
+ 	font-size: 14px;
+}
+ .carousel-caption {
+    left: 50%;
+    top: 55%;
+    width :60%;
+    transform: translate(-50%, -50%);
+} 
+.carousel-caption h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 60px;
+}
+
+
+/*courses*/
+
+
+.course-top-section{
+	margin: 100px 40px 40px 40px;
+}
+.course-top-section h2{
+	font-size: 45px;
+}
+
+.course-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.course-price{
+	font-weight: 600;
+	color: #289BDE;
+}
+
+.see-more-button{
+	background:  #289BDE;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.explore-section{
+	margin-top: 100px;
+	background-color: #F4FAFD;
+}
+
+.info-number{
+	font-weight: 600;
+}
+
+.explore-title{
+	font-weight: 600;
+}
+/*EXPLORE SECTION END*/
+
+/*READY SECTION START*/
+ .ready-section-content{
+ 	padding: 80px;
+	border-radius: 10px;
+ }
+.ready-section{
+	margin-top: 100px;
+}
+.ready-section h1{
+	font-size: 45px;
+
+}
+.ready-section p{
+	font-size: 16px;
+}
+.register-now{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+/*READY SECTION END*/
+
+
